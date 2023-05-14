@@ -2,6 +2,7 @@
 
 - Клонирование репозитория
 ```git clone https://github.com/ponomarenkoboris/currency_converter.git```
+```cd currency_converter```
 
 - Установка зависимостей
 ```yarn```
