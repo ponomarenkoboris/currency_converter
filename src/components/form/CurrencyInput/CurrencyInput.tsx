@@ -20,7 +20,7 @@ export const CurrencyInput = ({ role }: CurrencyInputProps) => {
 
 	const onSelectChange = (value: string) => {
 		if (!value) return 
-		dispatch({ type: role === 'from' ? ActionType.UPDATE_CURRENCY_FROM : ActionType.UPDATE_AMOUNT_FROM , payload: value })
+		dispatch({ type: role === 'from' ? ActionType.UPDATE_CURRENCY_FROM : ActionType.UPDATE_CURRENCY_TO , payload: value })
 	}
 
 	return (
